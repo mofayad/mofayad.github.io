@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Fayad - Software Engineer Portfolio</title>
+    <meta name="description" content="Mohamed Fayad - Full Stack Software Engineer specializing in React, Laravel, and modern web technologies. View my portfolio, projects, and experience.">
+    <meta name="keywords" content="Mohamed Fayad, Software Engineer, Full Stack Developer, React, Laravel, Web Development, Morocco">
+    <meta name="author" content="Mohamed Fayad">
+    <meta property="og:title" content="Mohamed Fayad - Software Engineer Portfolio">
+    <meta property="og:description" content="Full Stack Software Engineer specializing in modern web technologies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mohamedfayad.dev">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">MF</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Mohamed Fayad</h1>
+                <h2>Software Engineer</h2>
+                <p>Passionate full-stack developer specializing in creating innovative digital solutions. Currently pursuing advanced studies in Digital Development at ISGI Marrakech.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary" id="downloadCV">
+                        <span>Download CV</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-outline">
+                        <span>View Projects</span>
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="photo.png" alt="Mohamed Fayad" id="profileImage" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Building the Future of Web</h3>
+                    <p>I am a dynamic and curious software engineer with a deep passion for continuous learning and growth. My journey in tech began with a strong foundation in physical sciences, which taught me analytical thinking and problem-solving skills that I now apply to software development.</p>
+                    <p>Currently in my final year at ISGI Marrakech, specializing in Full Stack Web Development, I thrive in collaborative environments and embrace challenges with enthusiasm. My objective is to keep evolving both personally and professionally while making a meaningful impact on every project I contribute to.</p>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🚀</div>
+                            <h4>React</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚡</div>
+                            <h4>Laravel</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💾</div>
+                            <h4>RESTful APIs</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <h4>UI/UX Design</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <h4>Responsive Design</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🛠️</div>
+                            <h4>Git & Version Control</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats" id="stats">
+        <div class="section-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="2">0</div>
+                    <div class="stat-label">Years Experience</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">Technologies</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Hours Coded</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🔐</div>
+                        <div class="project-overlay">
+                            <span>View Project</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Password Vault Application</h3>
+                        <p>Secure web application for managing passwords with encrypted storage, built during my internship at PULSE.digital using React and Laravel.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🛒</div>
+                        <div class="project-overlay">
+                            <span>View Project</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with payment integration, inventory management, and responsive design.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">📋</div>
+                        <div class="project-overlay">
+                            <span>View Project</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management System</h3>
+                        <p>Collaborative project management tool with real-time updates and team collaboration features.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Real-time</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Leader Sport</h3>
+                        <h4>Decathlon Targa, Marrakech</h4>
+                        <p>May 2025 - August 2025</p>
+                        <p>Provided expert customer support in Water Sports and Cycling departments, strengthening teamwork and communication skills.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Web Developer Intern</h3>
+                        <h4>PULSE.digital, Marrakech</h4>
+                        <p>March 2025 - April 2025</p>
+                        <p>Developed Password Vault application using React, Laravel, and RESTful APIs with secure authentication features.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full Stack Web Development</h3>
+                        <h4>ISGI Marrakech (OFPPT)</h4>
+                        <p>2024 - 2025</p>
+                        <p>2nd year specialized technician in digital development, Full Stack Web option.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Digital Development</h3>
+                        <h4>ISGI Marrakech (OFPPT)</h4>
+                        <p>2023 - 2024</p>
+                        <p>1st year specialized technician in digital development.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Baccalaureate in Physical Science</h3>
+                        <h4>High School</h4>
+                        <p>2021 - 2022</p>
+                        <p>Completed baccalaureate with focus on physical sciences, developing strong analytical and problem-solving skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" id="video">
+        <div class="section-container">
+            <h2 class="section-title">Featured Video</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>mohamedfayad2004@gmail.com</p>
+                        <a href="mailto:mohamedfayad2004@gmail.com" class="contact-link">Send Email</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>(+212) 0616829481</p>
+                        <a href="tel:+2120616829481" class="contact-link">Call Now</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Location</h4>
+                        <p>Marrakech, Morocco</p>
+                        <a href="https://maps.google.com/?q=Marrakech,Morocco" target="_blank" class="contact-link">View on Map</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/mohamedfayad1/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mohamedfayad" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mohamedfayad2004@gmail.com" target="_blank" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://twitter.com/mohamedfayad" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mohamed Fayad. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
