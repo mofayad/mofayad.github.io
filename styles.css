@@ -976,6 +976,10 @@ footer {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+    .hero {
+        padding: 80px 5% 40px;
+        min-height: 90vh;
+    }
     .nav-links {
         display: none;
     }
@@ -991,16 +995,19 @@ footer {
 
     .hero-image {
         order: -1;
+        margin-bottom: 2rem;
     }
 
     .image-container {
         width: 250px;
         height: 250px;
         margin: 0 auto;
+        border-radius: 15px;
     }
 
     .profile-image {
-        object-position: center 30%;
+        object-position: center 15%;
+        object-fit: cover;
     }
 
     .about-content {
@@ -1035,6 +1042,38 @@ footer {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+    .hero {
+        padding: 60px 3% 30px;
+        min-height: 85vh;
+    }
+    
+    .image-container {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-text h2 {
+        font-size: 1.3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
     }
 }
 
@@ -1112,5 +1151,4 @@ html {
 
 .scroll-to-top.visible {
     display: flex;
-
 } 
