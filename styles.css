@@ -999,6 +999,10 @@ footer {
         margin: 0 auto;
     }
 
+    .profile-image {
+        object-position: center 30%;
+    }
+
     .about-content {
         grid-template-columns: 1fr;
     }
@@ -1108,4 +1112,5 @@ html {
 
 .scroll-to-top.visible {
     display: flex;
+
 } 
