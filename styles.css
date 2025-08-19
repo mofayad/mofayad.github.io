@@ -813,6 +813,7 @@ nav.scrolled {
 }
 
 /* Video Section */
+/* 
 .video-section {
     padding: 100px 5%;
     text-align: center;
@@ -838,7 +839,7 @@ nav.scrolled {
     border: none;
     border-radius: 16px;
 }
-
+*/
 /* Contact Section */
 .contact {
     padding: 100px 5%;
@@ -1152,3 +1153,4 @@ html {
 .scroll-to-top.visible {
     display: flex;
 } 
+
